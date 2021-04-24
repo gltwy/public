@@ -2,7 +2,7 @@
 关注后公众号内发送关键字获取对应的文章，文章里面会把实现流程讲解的更加详细，以下为所有的关键字：
 + **GCD**：对应GCD文件夹项目
 + **OperationQueue**：对应OperationQueue文件夹项目
-+ **RxSwift话题**：对应RxSwiftPub文件夹项目
++ **RxSwift笔记**：对应RxSwiftPub文件夹项目
 
 
 
