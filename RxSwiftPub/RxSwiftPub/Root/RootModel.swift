@@ -15,7 +15,4 @@ class RootModel {
         self.title = title
         self.targetVC = targetVC
     }
-    deinit {
-//        Logger("RootModel deinit")
-    }
 }

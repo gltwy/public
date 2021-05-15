@@ -64,10 +64,11 @@ class RootViewModel {
             let mvvm02 = RootCellViewModel(model: RootModel(title: "12: RxSwift+MVVM项目实战-登录功能实现",
                                                              targetVC: LoginViewController.self))
             
-//            let mvvm03 = RootCellViewModel(model: RootModel(title: "13: RxSwift-双向绑定",
-//                                                             targetVC: DoubleBindViewController.self))
+            let mvvm03 = RootCellViewModel(model: RootModel(title: "13: RxSwift+MVVM项目实战-单分组UITableView的使用",
+                                                             targetVC: RootViewController.self))
             
-            return [mvvm02,
+            return [mvvm03,
+                    mvvm02,
                     mvvm01,
                     doubleBind,
                     schedulers,

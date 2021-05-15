@@ -33,6 +33,7 @@ class RootTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         textLabel?.numberOfLines = 0
+        accessoryType = .disclosureIndicator
     }
     
     required init?(coder: NSCoder) {
