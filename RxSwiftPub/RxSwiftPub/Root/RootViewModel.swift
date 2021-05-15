@@ -32,22 +32,47 @@ class RootViewModel {
     
     private var dataSource: [RootCellViewModel] {
         get {
-            let traits1 = RootCellViewModel(model: RootModel(title: "RxSwift特征序列Single、Maybe、Completable的使用",
+            let traits1 = RootCellViewModel(model: RootModel(title: "03: RxSwift特征序列Single、Maybe、Completable的使用",
                                                              targetVC: SMCViewController.self))
             
-            let traits2 = RootCellViewModel(model: RootModel(title: "RxSwift特征序列Driver的使用，以及共享附加作用与非共享附加作用的区别？",
+            let traits2 = RootCellViewModel(model: RootModel(title: "04: RxSwift特征序列Driver的使用，以及共享附加作用与非共享附加作用的区别？",
                                                              targetVC: DriveViewController.self))
             
-            let bo = RootCellViewModel(model: RootModel(title: "RxSwift观察者AnyObserver、Binder的使用",
+            let bo = RootCellViewModel(model: RootModel(title: "05: RxSwift观察者AnyObserver、Binder的使用",
                                                              targetVC: BinderObserverViewController.self))
             
-            let mf = RootCellViewModel(model: RootModel(title: "RxSwift操作符操作符map、flatMap、flatMapLatest、filter的使用与区别",
+            let mf = RootCellViewModel(model: RootModel(title: "06: RxSwift操作符操作符map、flatMap、flatMapLatest、filter的使用与区别",
                                                              targetVC: MapFilterViewController.self))
             
-            let mzc = RootCellViewModel(model: RootModel(title: "RxSwift操作符merge、zip、combinLatest的使用",
+            let mzc = RootCellViewModel(model: RootModel(title: "07: RxSwift操作符merge、zip、combinLatest的使用",
                                                              targetVC: MZCViewController.self))
             
-            return [mzc,
+            let tsm = RootCellViewModel(model: RootModel(title: "08: RxSwift操作符take、skip、materialize、withLatestFrom、interval等的使用",
+                                                             targetVC: TakeSkipAndMoreViewController.self))
+            
+            let schedulers = RootCellViewModel(model: RootModel(title: "09: RxSwift调度器 - Schedulers",
+                                                             targetVC: SchedulersViewController.self))
+            
+            
+            let doubleBind = RootCellViewModel(model: RootModel(title: "10: RxSwift-双向绑定",
+                                                             targetVC: DoubleBindViewController.self))
+            
+            
+            let mvvm01 = RootCellViewModel(model: RootModel(title: "11: RxSwift+MVVM项目实战-MVVM架构介绍以及实战初体验",
+                                                             targetVC: AttentionViewController.self))
+            
+            let mvvm02 = RootCellViewModel(model: RootModel(title: "12: RxSwift+MVVM项目实战-登录功能实现",
+                                                             targetVC: LoginViewController.self))
+            
+//            let mvvm03 = RootCellViewModel(model: RootModel(title: "13: RxSwift-双向绑定",
+//                                                             targetVC: DoubleBindViewController.self))
+            
+            return [mvvm02,
+                    mvvm01,
+                    doubleBind,
+                    schedulers,
+                    tsm,
+                    mzc,
                     mf,
                     bo,
                     traits2,
