@@ -10,6 +10,7 @@ target 'RxSwiftPub' do
   # RxSwift基础库
   pod 'RxCocoa', '~> 6.1.0'
   pod 'RxSwift', '~> 6.1.0'
+  pod 'RxDataSources'
 
   #基于RxSwift的网络请求框架
   pod 'RxAlamofire', '~> 6.1.1'
@@ -17,4 +18,9 @@ target 'RxSwiftPub' do
   #自动布局库
   pod 'SnapKit', '~> 5.0.1'
 
+  #数据解析
+  pod 'HandyJSON'
+
+  #上下拉刷新
+  pod 'MJRefresh'
 end

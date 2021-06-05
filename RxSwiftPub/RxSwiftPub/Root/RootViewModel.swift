@@ -67,7 +67,15 @@ class RootViewModel {
             let mvvm03 = RootCellViewModel(model: RootModel(title: "13: RxSwift+MVVM项目实战-单分组UITableView的使用",
                                                              targetVC: RootViewController.self))
             
-            return [mvvm03,
+            let mvvm04 = RootCellViewModel(model: RootModel(title: "14: RxSwift+MVVM项目实战-单分组UITableView添加、删除、移动功能",
+                                                             targetVC: EditViewController.self))
+            
+            let mvvm05 = RootCellViewModel(model: RootModel(title: "15: RxSwift+MVVM项目实战-多分组UITableView结合RxDataSources的使用",
+                                                             targetVC: MuchGroupViewController.self))
+            
+            return [mvvm05,
+                    mvvm04,
+                    mvvm03,
                     mvvm02,
                     mvvm01,
                     doubleBind,

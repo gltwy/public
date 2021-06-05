@@ -23,6 +23,23 @@
 		6AA710F3262DB26B00956355 /* RootCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA710F2262DB26B00956355 /* RootCellViewModel.swift */; };
 		6AA710F7262DB33D00956355 /* SMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA710F6262DB33D00956355 /* SMCViewController.swift */; };
 		6AA71103262DB66500956355 /* DriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA71102262DB66500956355 /* DriveViewController.swift */; };
+		6AC7A0A6266B31A700522803 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0A5266B31A700522803 /* EditViewController.swift */; };
+		6AC7A0AA266B31C500522803 /* EditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0A9266B31C500522803 /* EditTableViewCell.swift */; };
+		6AC7A0AD266B31E400522803 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0AC266B31E400522803 /* EditViewModel.swift */; };
+		6AC7A0B0266B31F400522803 /* EditModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0AF266B31F400522803 /* EditModel.swift */; };
+		6AC7A0B3266B31FE00522803 /* EditCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0B2266B31FE00522803 /* EditCellViewModel.swift */; };
+		6AC7A0BD266B334000522803 /* MuchGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0BC266B334000522803 /* MuchGroupModel.swift */; };
+		6AC7A0C1266B335000522803 /* RXMJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0C0266B335000522803 /* RXMJRefresh.swift */; };
+		6AC7A0C4266B336300522803 /* MuchGroupSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0C3266B336300522803 /* MuchGroupSection.swift */; };
+		6AC7A0C7266B337B00522803 /* MuchGroupBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0C6266B337B00522803 /* MuchGroupBannerCell.swift */; };
+		6AC7A0CA266B338200522803 /* MuchGroupLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0C9266B338200522803 /* MuchGroupLiveCell.swift */; };
+		6AC7A0CD266B338A00522803 /* MuchGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0CC266B338A00522803 /* MuchGroupViewController.swift */; };
+		6AC7A0D0266B33AC00522803 /* MuchGroupBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0CF266B33AC00522803 /* MuchGroupBannerViewModel.swift */; };
+		6AC7A0D3266B33B400522803 /* MuchGroupLiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0D2266B33B400522803 /* MuchGroupLiveViewModel.swift */; };
+		6AC7A0D6266B33BB00522803 /* MuchGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0D5266B33BB00522803 /* MuchGroupViewModel.swift */; };
+		6AC7A0EA266B34EC00522803 /* RxDataSources+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7A0E9266B34EC00522803 /* RxDataSources+Extension.swift */; };
+		6AC7A0EF266B360500522803 /* muchgroup.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7A0ED266B360500522803 /* muchgroup.json */; };
+		6AC7A0F0266B360500522803 /* public.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AC7A0EE266B360500522803 /* public.png */; };
 		6ACC9BEE264F797F006C8963 /* TakeSkipAndMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC9BED264F797F006C8963 /* TakeSkipAndMoreViewController.swift */; };
 		6ACC9BF2264F7B0D006C8963 /* SchedulersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC9BF1264F7B0D006C8963 /* SchedulersViewController.swift */; };
 		6ACC9BF7264F7BC0006C8963 /* DoubleBindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC9BF6264F7BC0006C8963 /* DoubleBindViewController.swift */; };
@@ -55,6 +72,23 @@
 		6AA710F2262DB26B00956355 /* RootCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCellViewModel.swift; sourceTree = "<group>"; };
 		6AA710F6262DB33D00956355 /* SMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMCViewController.swift; sourceTree = "<group>"; };
 		6AA71102262DB66500956355 /* DriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveViewController.swift; sourceTree = "<group>"; };
+		6AC7A0A5266B31A700522803 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		6AC7A0A9266B31C500522803 /* EditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewCell.swift; sourceTree = "<group>"; };
+		6AC7A0AC266B31E400522803 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		6AC7A0AF266B31F400522803 /* EditModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditModel.swift; sourceTree = "<group>"; };
+		6AC7A0B2266B31FE00522803 /* EditCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCellViewModel.swift; sourceTree = "<group>"; };
+		6AC7A0BC266B334000522803 /* MuchGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupModel.swift; sourceTree = "<group>"; };
+		6AC7A0C0266B335000522803 /* RXMJRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXMJRefresh.swift; sourceTree = "<group>"; };
+		6AC7A0C3266B336300522803 /* MuchGroupSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupSection.swift; sourceTree = "<group>"; };
+		6AC7A0C6266B337B00522803 /* MuchGroupBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupBannerCell.swift; sourceTree = "<group>"; };
+		6AC7A0C9266B338200522803 /* MuchGroupLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupLiveCell.swift; sourceTree = "<group>"; };
+		6AC7A0CC266B338A00522803 /* MuchGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupViewController.swift; sourceTree = "<group>"; };
+		6AC7A0CF266B33AC00522803 /* MuchGroupBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupBannerViewModel.swift; sourceTree = "<group>"; };
+		6AC7A0D2266B33B400522803 /* MuchGroupLiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupLiveViewModel.swift; sourceTree = "<group>"; };
+		6AC7A0D5266B33BB00522803 /* MuchGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchGroupViewModel.swift; sourceTree = "<group>"; };
+		6AC7A0E9266B34EC00522803 /* RxDataSources+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxDataSources+Extension.swift"; sourceTree = "<group>"; };
+		6AC7A0ED266B360500522803 /* muchgroup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = muchgroup.json; sourceTree = "<group>"; };
+		6AC7A0EE266B360500522803 /* public.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = public.png; sourceTree = "<group>"; };
 		6ACC9BED264F797F006C8963 /* TakeSkipAndMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeSkipAndMoreViewController.swift; sourceTree = "<group>"; };
 		6ACC9BF1264F7B0D006C8963 /* SchedulersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulersViewController.swift; sourceTree = "<group>"; };
 		6ACC9BF6264F7BC0006C8963 /* DoubleBindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleBindViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +196,9 @@
 		6AA710FF262DB61300956355 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				6AC7A0EC266B35F700522803 /* Resource */,
+				6AC7A0B6266B330B00522803 /* MuchGroup */,
+				6AC7A0A4266B318100522803 /* EditTable */,
 				6AA0A22F2633CB5200FC056F /* BinderAnyobserver */,
 				6ACC9BF5264F7B9B006C8963 /* DoubleBind */,
 				6AA71101262DB63B00956355 /* Drive */,
@@ -182,6 +219,84 @@
 				6AA71102262DB66500956355 /* DriveViewController.swift */,
 			);
 			path = Drive;
+			sourceTree = "<group>";
+		};
+		6AC7A0A4266B318100522803 /* EditTable */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0A5266B31A700522803 /* EditViewController.swift */,
+				6AC7A0A9266B31C500522803 /* EditTableViewCell.swift */,
+				6AC7A0AC266B31E400522803 /* EditViewModel.swift */,
+				6AC7A0AF266B31F400522803 /* EditModel.swift */,
+				6AC7A0B2266B31FE00522803 /* EditCellViewModel.swift */,
+			);
+			path = EditTable;
+			sourceTree = "<group>";
+		};
+		6AC7A0B6266B330B00522803 /* MuchGroup */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0B7266B331800522803 /* Model */,
+				6AC7A0BA266B332400522803 /* Rx */,
+				6AC7A0BB266B332E00522803 /* Section */,
+				6AC7A0B9266B332000522803 /* View */,
+				6AC7A0B8266B331C00522803 /* ViewModel */,
+			);
+			path = MuchGroup;
+			sourceTree = "<group>";
+		};
+		6AC7A0B7266B331800522803 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0BC266B334000522803 /* MuchGroupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AC7A0B8266B331C00522803 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0CF266B33AC00522803 /* MuchGroupBannerViewModel.swift */,
+				6AC7A0D2266B33B400522803 /* MuchGroupLiveViewModel.swift */,
+				6AC7A0D5266B33BB00522803 /* MuchGroupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6AC7A0B9266B332000522803 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0C6266B337B00522803 /* MuchGroupBannerCell.swift */,
+				6AC7A0C9266B338200522803 /* MuchGroupLiveCell.swift */,
+				6AC7A0CC266B338A00522803 /* MuchGroupViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AC7A0BA266B332400522803 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0C0266B335000522803 /* RXMJRefresh.swift */,
+				6AC7A0E9266B34EC00522803 /* RxDataSources+Extension.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		6AC7A0BB266B332E00522803 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0C3266B336300522803 /* MuchGroupSection.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		6AC7A0EC266B35F700522803 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A0ED266B360500522803 /* muchgroup.json */,
+				6AC7A0EE266B360500522803 /* public.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		6ACC9BEB264F795C006C8963 /* TakeSkip */ = {
@@ -306,9 +421,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC7A0EF266B360500522803 /* muchgroup.json in Resources */,
 				6AA710CF262DB14800956355 /* LaunchScreen.storyboard in Resources */,
 				6AA710CC262DB14800956355 /* Assets.xcassets in Resources */,
 				6AA710CA262DB14800956355 /* Main.storyboard in Resources */,
+				6AC7A0F0266B360500522803 /* public.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,13 +482,23 @@
 				6ACC9C06264F7CFC006C8963 /* AttentionModel.swift in Sources */,
 				6ACC9C03264F7CF3006C8963 /* AttentionViewModel.swift in Sources */,
 				6ACC9C1D264F7F19006C8963 /* LoginViewController.swift in Sources */,
+				6AC7A0C7266B337B00522803 /* MuchGroupBannerCell.swift in Sources */,
+				6AC7A0C4266B336300522803 /* MuchGroupSection.swift in Sources */,
+				6AC7A0D6266B33BB00522803 /* MuchGroupViewModel.swift in Sources */,
 				6ACC9C1A264F7F0B006C8963 /* LoginModel.swift in Sources */,
+				6AC7A0EA266B34EC00522803 /* RxDataSources+Extension.swift in Sources */,
 				6AA710ED262DB25600956355 /* RootViewModel.swift in Sources */,
 				6AA71103262DB66500956355 /* DriveViewController.swift in Sources */,
 				6AA710C7262DB14800956355 /* ViewController.swift in Sources */,
+				6AC7A0BD266B334000522803 /* MuchGroupModel.swift in Sources */,
+				6AC7A0A6266B31A700522803 /* EditViewController.swift in Sources */,
+				6AC7A0C1266B335000522803 /* RXMJRefresh.swift in Sources */,
 				6AA710EA262DB24A00956355 /* RootTableViewCell.swift in Sources */,
 				6ACC9BFF264F7CE4006C8963 /* AttentionViewController.swift in Sources */,
+				6AC7A0D0266B33AC00522803 /* MuchGroupBannerViewModel.swift in Sources */,
 				6ACC9C13264F7EF2006C8963 /* LoginViewModel.swift in Sources */,
+				6AC7A0CA266B338200522803 /* MuchGroupLiveCell.swift in Sources */,
+				6AC7A0B0266B31F400522803 /* EditModel.swift in Sources */,
 				6AA710F7262DB33D00956355 /* SMCViewController.swift in Sources */,
 				6AA710F0262DB26100956355 /* RootModel.swift in Sources */,
 				6AA0A2362633DBCB00FC056F /* MapFilterViewController.swift in Sources */,
@@ -379,11 +506,16 @@
 				6ACC9BFB264F7BF6006C8963 /* Operators.swift in Sources */,
 				6AA710C3262DB14800956355 /* AppDelegate.swift in Sources */,
 				6ACC9C17264F7EFE006C8963 /* LoginView.swift in Sources */,
+				6AC7A0B3266B31FE00522803 /* EditCellViewModel.swift in Sources */,
 				6AA0A2312633CB6900FC056F /* BinderObserverViewController.swift in Sources */,
 				6ACC9BEE264F797F006C8963 /* TakeSkipAndMoreViewController.swift in Sources */,
+				6AC7A0D3266B33B400522803 /* MuchGroupLiveViewModel.swift in Sources */,
 				6AA710E6262DB23D00956355 /* RootViewController.swift in Sources */,
 				6ACC9BF7264F7BC0006C8963 /* DoubleBindViewController.swift in Sources */,
 				6AA0A23B2634035400FC056F /* MZCViewController.swift in Sources */,
+				6AC7A0AD266B31E400522803 /* EditViewModel.swift in Sources */,
+				6AC7A0AA266B31C500522803 /* EditTableViewCell.swift in Sources */,
+				6AC7A0CD266B338A00522803 /* MuchGroupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
