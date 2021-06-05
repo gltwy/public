@@ -45,7 +45,7 @@ extension RootTableViewCell {
     
     func bind(to viewModel: RootCellViewModel) {
         if let _label = textLabel {
-            viewModel.title.bind(to: _label.rx.text).disposed(by: disposeBag)
+            viewModel.title.bind(to: _label.rx.attributedText).disposed(by: disposeBag)
         }
     }
 }

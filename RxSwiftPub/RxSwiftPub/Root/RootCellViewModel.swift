@@ -11,11 +11,15 @@ import RxCocoa
 import RxSwift
 
 class RootCellViewModel: NSObject {
-    var title = BehaviorRelay<String?>(value: nil)
+    var title = BehaviorRelay<NSAttributedString?>(value: nil)
     var targetVC = BehaviorRelay<UIViewController.Type?>(value: nil)
     
     init(model: RootModel) {
-        self.title.accept(model.title)
+        let _detail = model.title ?? ""
+        let style = NSMutableParagraphStyle()
+        style.lineSpacing = 5.0
+        let attr = NSAttributedString(string: _detail, attributes: [NSAttributedString.Key.paragraphStyle : style])
+        self.title.accept(attr)
         self.targetVC.accept(model.targetVC)
     }
 }

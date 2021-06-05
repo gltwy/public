@@ -79,7 +79,12 @@ extension RootViewController {
     }
     
     private func loadTableView() -> UITableView {
-        let tableView = UITableView(frame: view.frame, style: .grouped)
+        let navcH = UIApplication.shared.statusBarFrame.size.height + 44
+        var height = view.frame.size.height - navcH
+        if #available(iOS 11.0, *) {
+            height -= UIApplication.shared.keyWindow?.safeAreaInsets.top ?? 0
+        }
+        let tableView = UITableView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: height), style: .grouped)
         tableView.estimatedRowHeight = 1.01
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedSectionFooterHeight = 1.01
