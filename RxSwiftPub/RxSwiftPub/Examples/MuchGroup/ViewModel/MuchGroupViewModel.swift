@@ -3,6 +3,7 @@
 //  RxSwiftPub
 //
 //  Created by 高刘通 on 2021/5/30.
+//  欢迎搜索并关注微信公众号：技术大咖社
 //
 
 import UIKit
@@ -124,6 +125,3 @@ extension Observable where Element == [String : Any] {
         }
     }
 }
-
-
-
