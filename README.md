@@ -8,7 +8,7 @@
 
 
 ## 联系我们
-扫一扫或者搜索并关注微信公众号：**技术大咖社**  
+扫一扫或者搜索并关注微信公众号：**iOS云笔记**  
 ![image](https://github.com/gltwy/public/blob/main/wechat.png)
 
 ## License
